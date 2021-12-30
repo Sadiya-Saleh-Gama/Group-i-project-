@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="1st.css">
+	<title>
+	</title>
+</head>
+<body>
+<div class="nav-bar">
+	<ul>
+		<li> <a href="1st.html">Home</li>
+	    <li> <a href="slidegallery.html">Food Gallery</li>
+	    	<li> <a href="specialmenu.html">Special Menu</li>
+	    <li> <a href="chef.html">Chef</li>
+	    	<li> <a href="ourteam.html">About Us</li>
+	    	<li> <a href="regformindex.html">Register</li>
+	    		<li> <a href="loginform.html">Login</li>
+	</ul>
+		<div class="navbar-header">
+	<a href="1st.html" class="navbar-brand ">Delightful Pancakes</a>
+			<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+	</section>
+
+			<h1> Home Of Pancakes</h1>
+		
+		
+			
+		
+	</div>
+	<hr>
+	
+	<div id="container4">
+		<div id="row4">
+			
+	
+  <img src="images/pancake1.jpg" alt="Snow" style="width:100%;">
+ 
+</div>
+<button class="btn">ORDER NOW</button>
+		</div>
+
+
+	<h3 id="DarkModetext">Dark Mode is OFF</h3>
+	<button onclick="darkMode()">Darkmode</button>
+	<button onclick="lightMode()">LightMode</button>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+		content.innerText = "Dark Mode is ON";
+	}
+	function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+		content.innerText = "Dark Mode is OFF";
+	}
+	</script>
+
+</div>
+	<footer>Copyright © 2020-2021 Delightful Pancakes.
+		All Rights reserved</footer>
+			<div class="container">	
+
+
+</body>
+</html>
